@@ -1,6 +1,6 @@
 # 🏆 Contests Tracker  
 
-🔗 **[Demo Video](#)** (Replace `#` with actual link)  
+🔗 video demo :-  https://drive.google.com/file/d/1CNmlFxwUjBfUWUzQw5IqAe3lyD9tn77j/view?usp=sharing
 
 ## 🚀 Overview  
 **Contests Tracker** is a fully automated system that:  
