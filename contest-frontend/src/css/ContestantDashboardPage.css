@@ -1,0 +1,181 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7fa;
+  }
+  
+  .dashboard-container {
+    display: flex;
+    padding: 30px;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Heading */
+  .dashboard-heading {
+    text-align: center;
+    color: #333;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  /* Table Section */
+  .table-section {
+    flex: 2;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-top: 4px solid #007bff;
+  }
+  
+  /* Filter Section */
+  .filter-section {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .filter-section label {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .filter-dropdown {
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    color: #333;
+    background-color: #f9f9f9;
+    cursor: pointer;
+  }
+  
+  .filter-dropdown:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+  }
+  
+  .old-contests-filter {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .old-contests-filter input {
+    cursor: pointer;
+  }
+  
+  /* Table Styling */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th,
+  td {
+    padding: 14px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #007bff;
+    color: white;
+    font-weight: 600;
+  }
+  
+  tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* YouTube Icon */
+  .youtube-icon {
+    color: #ff0000;
+    font-size: 20px;
+  }
+  
+  .youtube-icon:hover {
+    opacity: 0.8;
+  }
+  
+  /* Bookmark Button */
+  .bookmark-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .bookmark-icon {
+    color: #ffc107;
+  }
+  
+  .bookmark-count {
+    font-weight: 500;
+    color: #555;
+  }
+  
+  /* Statistics Section */
+  .stats-section {
+    flex: 1;
+  }
+  
+  .stats-card {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-top: 4px solid #28a745;
+    margin-bottom: 20px;
+  }
+  
+  .stats-card h3 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .stats-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 6px;
+  }
+  
+  .stats-icon {
+    color: #28a745;
+    margin-right: 10px;
+    font-size: 18px;
+  }
+  
+  .stats-label {
+    font-weight: 500;
+    color: #555;
+    flex: 1;
+  }
+  
+  .stats-value {
+    color: #28a745;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  /* Graph Container */
+  .graph-container {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-top: 4px solid #007bff;
+  }
