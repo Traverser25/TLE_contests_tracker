@@ -3,7 +3,7 @@ import datetime
 from pymongo import MongoClient
 
 # MongoDB connection URI
-mongoURI = "mongodb+srv://wiw_db:wiwbackshot69@clusterme.qmify.mongodb.net/contest_tracker?retryWrites=true&w=majority"
+mongoURI = ""
 
 # Connect to MongoDB
 client = MongoClient(mongoURI)
