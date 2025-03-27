@@ -49,7 +49,7 @@ const ContestantDashboardPage = () => {
 
   const fetchLiveContests = () => {
     setLoading(true);
-    fetch("http://localhost:3000/api/live_contest")
+    fetch("http://localhost:5000/api/live_contest")
       .then((response) => {
         if (!response.ok) {
           throw new Error("Network response was not ok");
@@ -75,7 +75,7 @@ const ContestantDashboardPage = () => {
 
   const fetchPastContests = () => {
     setLoading(true);
-    fetch("http://localhost:3000/api/past_contest")
+    fetch("http://localhost:5000/api/past_contest")
       .then((response) => {
         if (!response.ok) {
           throw new Error("Network response was not ok");
@@ -107,7 +107,7 @@ const ContestantDashboardPage = () => {
         return;
     }
 
-    fetch("http://localhost:3000/get_bookmarks", {
+    fetch("http://localhost:5000/get_bookmarks", {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
@@ -161,7 +161,7 @@ const ContestantDashboardPage = () => {
       prevContests.map((c) => (c.contest_id === contestId ? { ...c, isBookmarked: !c.isBookmarked } : c)),
     );
 
-    fetch(`http://localhost:3000/bookmark`, {
+    fetch(`http://localhost:5000/bookmark`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
